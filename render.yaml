@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: portfolio
+    env: node
+    nodeVersion: 16.x
+    buildCommand: |
+      npm install
+      cd portfolio-frontend
+      npm install
+      npm run build
+      cd ..
+    startCommand: node server.js
+    envVars:
+      - key: PORT
+        value: 8080
