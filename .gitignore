@@ -1,0 +1,17 @@
+# Ignore everything
+*
+
+# But not these files
+!.gitignore
+!portfolio-frontend/src/pages/*.js
+!portfolio-frontend/src/pages/About/About.js
+!portfolio-frontend/src/pages/Projects/Projects.js
+!server.js
+!controllers/portfolioController.js
+!package.json
+!package-lock.json
+!portfolio-frontend/
+!portfolio-frontend/src/
+!portfolio-frontend/src/components/
+!portfolio-frontend/src/components/MobileNav/
+!portfolio-frontend/src/components/MobileNav/*.js
