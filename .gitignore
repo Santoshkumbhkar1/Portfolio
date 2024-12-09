@@ -15,3 +15,6 @@
 !portfolio-frontend/src/components/
 !portfolio-frontend/src/components/MobileNav/
 !portfolio-frontend/src/components/MobileNav/*.js
+!routes/
+!routes/*.js
+!controllers
