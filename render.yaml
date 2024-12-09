@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: portfolio
+    name: santoshkumbhkar
     env: node
     nodeVersion: 16.x
     buildCommand: |
