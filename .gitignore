@@ -1,20 +1,23 @@
-# Ignore everything
-*
+# dependencies
+node_modules/
 
-# But not these files
-!.gitignore
-!portfolio-frontend/src/pages/*.js
-!portfolio-frontend/src/pages/About/About.js
-!portfolio-frontend/src/pages/Projects/Projects.js
-!server.js
-!controllers/portfolioController.js
-!package.json
-!package-lock.json
-!portfolio-frontend/
-!portfolio-frontend/src/
-!portfolio-frontend/src/components/
-!portfolio-frontend/src/components/MobileNav/
-!portfolio-frontend/src/components/MobileNav/*.js
-!routes/
-!routes/*.js
-!controllers
+# environment variables
+.env
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# local development
+*.local

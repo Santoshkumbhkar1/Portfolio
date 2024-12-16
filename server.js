@@ -16,13 +16,13 @@ app.use(express.json());
 // routes
 app.use('/api/v1/portfolio', require("./routes/portfolioRoute"))
 
-// Serve static files from the React app
-app.use(express.static(path.join(__dirname, 'portfolio-frontend/build')));
+// Static files
+app.use(express.static(path.join(__dirname, './portfolio-frontend/build')));
 
 // The "catchall" handler: for any request that doesn't
 // match one above, send back the React app.
 app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, 'portfolio-frontend/build/index.html'));
+    res.sendFile(path.join(__dirname, './portfolio-frontend/build/index.html'));
 });
 
 // port

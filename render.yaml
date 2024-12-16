@@ -13,3 +13,5 @@ services:
     envVars:
       - key: PORT
         value: 8080
+      - key: API_SENDGRID
+        sync: false # This will allow you to set it securely through Render dashboard
