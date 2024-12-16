@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: portfolio
+    name: santosh-kumbhkar
     env: node
     nodeVersion: 16.x
     buildCommand: |
@@ -12,6 +12,7 @@ services:
     startCommand: node server.js
     envVars:
       - key: PORT
-        value: 8080
-      - key: API_SENDGRID
+        value: 10000
+      - key: NODE_ENV
+    
         sync: false # This will allow you to set it securely through Render dashboard
